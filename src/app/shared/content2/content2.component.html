@@ -1,0 +1,17 @@
+<section id="main-container" class="main-container">
+  <div class="container">
+    <div class="row text-center">
+      <h2 class="section-title">swapi.co</h2>
+      <h3 class="section-sub-title">CONSUMING API REST</h3>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-3 movie-style d-flex justify-content-center" *ngFor="let movie of Movies">
+        <fieldset>
+          <legend>{{ movie.title }}</legend>
+          <h4>{{movie.release_date}}</h4>
+          <p>{{ movie.opening_crawl }}</p>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</section>

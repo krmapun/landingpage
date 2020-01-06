@@ -1,0 +1,21 @@
+.movie-style h4{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.movie-style legend{
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: 900;
+}
+.movie-style p{
+    line-height: 20px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+.center {
+    margin: 0 auto;
+    width: 80%;
+}
+.movie-style{
+    height: 400px;
+}
